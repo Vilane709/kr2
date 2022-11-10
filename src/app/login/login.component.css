@@ -1,0 +1,20 @@
+form {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+input {
+    background-color: rgb(45, 45, 45);
+	color: white;
+	border: none;
+}
+
+
+button {
+    background-color: rgb(45, 45, 45);
+	color: white;
+	border: none;
+}

@@ -1,0 +1,32 @@
+<form>
+    <label id="namel"for="name">имя</label>
+    <input id="name" type="text" [(ngModel)]="name">
+
+    <label id="surnamel"for="surname">фамилия</label>
+    <input id="surname" type="text" [(ngModel)]="surname">
+
+    <label id="sursurnamel"for="sursurname">отчество</label>
+    <input id="sursurname" type="text" [(ngModel)]="sursurname">
+
+    <label id="maill" for="mail">email</label>
+    <input id="mail" type="email" [(ngModel)]="email">
+
+    <label id="passwordl"for="password">пароль</label>
+    <input id="password" type="number" min='10' max='300' [(ngModel)]="password">
+
+    <label id="2passwordl"for="2password">введите пароль еще раз</label>
+    <input id="2password" type="number">
+
+    <label id="datel"for="date">дата рождения</label>
+    <input id="date" type="date">
+
+    <p>
+        <select>
+        <option>выберите пол</option>
+        <option value="мужчина">мужчина</option>
+        <option value="женщина">женщина</option>
+       </select>
+    </p>
+
+    <button (click)="normal()">Зарегестрироваться</button>
+</form>
